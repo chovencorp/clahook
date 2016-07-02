@@ -1,0 +1,30 @@
+# Copyright @ 2016 Choven Corp.
+#
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+# Port to run on
+PORT = 5001
+
+# github personal access token which gives rights to update statuses
+# you can use PAT of your account or just create special web hook account
+PERSONAL_ACCESS_TOKEN = "{personal_access_token}"
+
+# Contributors file path relative to repository root
+CONTRIBUTORS_FILE_NAME = "contributors.txt"
+
+# Here you can specify the pattern for your contributors file.
+# Don't forget to place r before string.
+CLA_PATTERN = r"I, {username}, agree to the CLA"
+
+# Status context name (name of webhook)
+CONTEXT_NAME = "cla"
+
+# Here you can set comment msg for three different situations
+FAILURE_MESSAGE = "Please agree to CLA first."
+
+SUCCESS_MESSAGE = "CLA signed successfully."
+
+# Here you can set actions on which web hook will analyze contributors file.
+PULL_ACTIONS = ("opened","reopened","synchronize")
