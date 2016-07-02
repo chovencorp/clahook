@@ -2,6 +2,8 @@
 
 Contributor License Agreement (CLA) webhook for github.
 
+![ClaHook](docs/images/about.png)
+
 ## Setup
 
 1. Install the dependencies with pip: `pip install -r requirements.txt`
