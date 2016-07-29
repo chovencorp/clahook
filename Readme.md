@@ -35,11 +35,11 @@ Contributor License Agreement (CLA) webhook for github.
 1. Set your `Payload URL`
 2. Enable event of type `Pull request`.
 
-![PayloadUrlAndEvents](docs/images/webhook_events_github.png)
+   ![PayloadUrlAndEvents](docs/images/webhook_events_github.png)
 
 3. Create new `Personal access token` with the `repo:status` scope.
 
-![PersonalAccessToken](docs/images/personal_access_token.png)
+   ![PersonalAccessToken](docs/images/personal_access_token.png)
 
 ## Recommended Software
 
